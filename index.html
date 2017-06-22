@@ -27,95 +27,7 @@
             <group id='root' render='false'>
                 <group DEF='theScene'>
 
-                    <transform translation='15 1 0'>
-                        <shape>
-                            <appearance>
-                                <material diffuseColor='0.234 0.67 0.86'></material>
-                            </appearance>
-
-                            <box></box>
-                        </shape>
-                    </transform>
-
-                    <transform translation='10 1 10'>
-                        <shape>
-                            <appearance>
-                                <material diffuseColor='0.234 0.67 0.86'></material>
-                            </appearance>
-
-                            <box></box>
-                        </shape>
-                    </transform>
-
-                    <transform translation='0 1 15'>
-                        <shape>
-                            <appearance>
-                                <material diffuseColor='0.234 0.67 0.86'></material>
-                            </appearance>
-
-                            <box></box>
-                        </shape>
-                    </transform>
-
-                    <transform translation='-10 1 10'>
-                        <shape>
-                            <appearance>
-                                <material diffuseColor='0.234 0.67 0.86'></material>
-                            </appearance>
-
-                            <box></box>
-                        </shape>
-                    </transform>
-
-                    <transform translation='-15 1 0'>
-                        <shape>
-                            <appearance>
-                                <material diffuseColor='0.234 0.67 0.86'></material>
-                            </appearance>
-
-                            <box></box>
-                        </shape>
-                    </transform>
-
-                    <transform translation='-10 1 -10'>
-                        <shape>
-                            <appearance>
-                                <material diffuseColor='0.234 0.67 0.86'></material>
-                            </appearance>
-
-                            <box></box>
-                        </shape>
-                    </transform>
-
-                    <transform translation='0 1 -15'>
-                        <shape>
-                            <appearance>
-                                <material diffuseColor='0.234 0.67 0.86'></material>
-                            </appearance>
-
-                            <box></box>
-                        </shape>
-                    </transform>
-
-                    <transform translation='10 1 -10'>
-                        <shape>
-                            <appearance>
-                                <material diffuseColor='0.234 0.67 0.86'></material>
-                            </appearance>
-
-                            <box></box>
-                        </shape>
-                    </transform>
-
-                    <!--plano del suelo-->
-                    <transform translation='0 -1 0'>
-                        <shape>
-                            <appearance>
-                                <material diffuseColor='0.6 0.3 0.1'></material>
-                            </appearance>
-                            <box size='50 2 50'></box>
-                        </shape>
-                    </transform>
+                    <inline url="./models/MyX3D.x3d"></inline>
 
                 </group>
             </group>
@@ -309,8 +221,8 @@
             container.webkitRequestFullscreen();
         }
     }
-
-    //gamepad support
+	
+	//gamepad support
     var hasGP = false;
 
     function canGame() {
@@ -355,6 +267,7 @@
 
         }
     }
+
 </script>
 </body>
 </html>
